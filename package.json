@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,8 @@
   "author": "Fajar BC <mail@fajarbc.com> (https://github.com/fajarbc)",
   "license": "ISC",
   "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.2",
+    "@influxdata/influxdb-client-apis": "^1.33.2",
     "dotenv": "^16.0.3",
     "influx": "^5.9.3"
   }
